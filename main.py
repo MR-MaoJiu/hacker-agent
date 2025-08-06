@@ -11,7 +11,7 @@ from ui import (
     print_thought_process, print_command_to_execute, print_command_output, print_error, Prompt, print_summary
 )
 
-CONFIG_FILE = "hacker-agent/config.json"
+CONFIG_FILE = "config.json"
 MAX_RETRIES = 3 # Max attempts for LLM to fix a command
 
 async def main():

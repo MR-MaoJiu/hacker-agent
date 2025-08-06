@@ -5,7 +5,7 @@ import subprocess
 import json
 import os
 
-INSTALLED_TOOLS_FILE = "hacker-agent/installed_tools.json"
+INSTALLED_TOOLS_FILE = "installed_tools.json"
 
 def get_os_type():
     """Returns 'macos' or 'linux' based on the operating system."""
